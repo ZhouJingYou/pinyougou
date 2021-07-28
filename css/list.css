@@ -1,0 +1,144 @@
+.sk {
+    position: absolute;
+    top: 37px;
+    left: 190px;
+    padding: 3px 10px; 
+    border-left: 1px solid #b1191a;
+}
+
+.sk_list {
+    float: left;
+    height: 45px;
+    width: 360px;
+}
+.sk_list li {
+    float: left;
+}
+.sk_list li a {
+    display: block;
+    margin: 0 28px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.sk_con {
+    float: left;
+    margin-left: 12px;
+}
+.sk_con li {
+    float: left;
+}
+.sk_con li a {
+    display: block;
+    margin: 0 22px;
+    font-size: 14px;
+    line-height: 45px;
+}
+.sk_con i {
+    font-size: 18px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.sk_bd ul {
+    /* margin-top: 25px; */
+    margin: 25px -13px 0 0;
+}
+.sk_bd li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+.sk_bd li:hover {
+    border: 1px solid #e12228;
+    
+}
+.sk_img {
+    display: block;
+    width: 288px;
+    height: 255px;
+}
+.sk_img_inner {
+    height: 255px;
+    width: 125px;
+    margin: 20px auto ;
+}
+.sk_img_inner img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sk_info {
+    height: 121px;
+    padding: 15px 10px;
+    margin-bottom: 13px;
+}    
+
+.sk_info a {
+    display: block;
+    height: 44px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.sk_info_price {
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+    margin: 7px 0;
+}
+.sk_info_price i {
+    display: inline-block;
+    margin-right: -3px;
+    font-size: 14px;
+}
+.sk_info_price del {
+    font-size: 14px;
+    color: #a4a4a4;
+    margin-left: 7px;
+}
+.sk_info_sale {
+    font-size: 14px;
+    color: #666666;
+}
+.sk_info_sale span {
+    position: relative;
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    margin: 0 10px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.sk_info_sale b {
+    position: absolute;
+    left: 0;
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+    border: 5px 0 0 5px;
+}
+.sk_btn {
+    display: block;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;
+}
+
+.fixbox {
+    position: fixed;
+    right: 118px;
+    bottom: 300px;
+}

@@ -1,0 +1,368 @@
+/* 字体图标声明 注意修改路径 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?qi0s9y');
+    src:  url('../fonts/icomoon.eot?qi0s9y#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?qi0s9y') format('truetype'),
+      url('../fonts/icomoon.woff?qi0s9y') format('woff'),
+      url('../fonts/icomoon.svg?qi0s9y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.por {
+    position: relative;
+}
+.style-red {
+    color: #c81623;
+}
+.icomoon {
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    height: 12px;
+    width: 1px;
+    margin: 9px 15px 0;
+    background-color: #666;
+}
+
+.arrow_icon::after {
+    font-family: 'icomoon';
+    content: "\e900";
+    margin-left: 6px;
+    
+}
+
+/* 头部模块 */
+.header {
+    position: relative;
+    height: 106px;
+}
+
+.header .logo {
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    top: 27px;
+    
+    
+}
+
+.header .logo a {
+    display: block;
+    width: 219px;
+    height: 55px;
+    font-size: 0;
+    background: url(../image/logo.png) no-repeat;
+}
+/* 搜索框 */
+.search {
+    position: absolute;
+    left: 348px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    background-color: #ccc;
+}
+
+.search input {
+    position: relative;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+   
+}
+
+.search button {
+    position: absolute;
+    right: 0;
+    width: 80px;
+    height: 32px;
+    color:#fff;
+    transition:background .2s ease  ;
+    background-color: #b1191a;
+}
+.search button:hover {
+    background-color: #c81623;
+    
+}
+
+/* 热搜词 */
+.hotwords {
+    position: absolute;
+    left: 348px;
+    top: 69px;
+    width: 500px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.hotwords ul li {
+    float: left;
+    margin: 0 12px;
+}
+
+
+/* 购物车 */
+.shopcar {
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #dfdfdf ;
+    background-color: #f7f7f7;
+    line-height: 36px;
+    text-align: center;
+}
+
+.shopcar::before {
+    margin-right: 3px;
+    font-family: 'icomoon';
+    content: "\e904";
+    font-size: 16px;
+    color: #b1191a;
+}
+
+.shopcar::after {
+    margin-left: 5px;
+    font-family: 'icomoon';
+    content: "\e902";
+}
+
+.shopcar .count {
+    display: inline-block;
+    position: absolute;
+    left: 104px;
+    top: -5px;
+    /* width: 18px;   不要给宽度，因为件数不确定 */
+    padding: 0 5px;
+    height: 14px;
+    color:#fefefe;
+    background-color: #e60012;
+    border-radius: 7px  7px 7px 0;
+    line-height: 14px;
+    text-align: center;
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown {
+    float: left;
+    height: 47px;
+    width: 209px;
+    background-color: #b1191a;
+    
+}
+.nav .dropdown .dt {
+    
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    font-size: 17px;
+    line-height: 47px;
+    text-align: center; 
+}
+
+
+.nav .dropdown .dd {
+    /* display: none; */
+    /* border-top: 2px solid #b1191a; */
+    position: absolute;
+    
+    height: 465px;
+    
+    
+    background-color: #c81623;
+}
+.nav .dropdown .dd ul li {
+    padding-left: 14px;
+    height: 31px;
+    width: 209px;
+    
+    line-height: 31px; 
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav .dropdown .dd ul li:last-child {
+    border: 1px solid #c81623;
+}
+
+.nav .dropdown .dd ul li::after {
+    float: right;
+    margin-right: 10px;
+    font-family: 'icomoon';
+    content: "\e902";
+}
+
+.nav .dropdown .dd ul li a {
+   
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+.nav .dropdown .dd ul li:hover  {
+    background-color: #fff;
+    color:#c81623;
+    
+}
+.nav .dropdown .dd ul li:hover a {
+    
+    color: #c81623;
+}
+
+
+.nav .navitems {
+    float: left;
+    margin-left: 25px;
+}
+.nav .navitems ul li {
+    float: left;
+    /* margin: 0 25px; */
+}
+.nav .navitems ul li a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center; 
+}
+
+.footer {
+    height: 416px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.footer .mod_service {
+    height: 110px;
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.footer .mod_service ul li {
+    float: left;
+    width: 240px;
+}
+
+.mod_service_unit {
+    position: relative;
+    width: 170px;
+    margin: 0 auto;
+}
+.footer .mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+   
+    background: url(../image/icons.png) no-repeat -253px -3px;
+    
+}
+
+.footer .mod_service ul li h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.footer .mod_service ul li p {
+    font-size: 12px;
+
+    color: #666;
+}
+
+.footer .mod_help {
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+    
+
+}
+
+.footer .mod_help_list {
+    height: 150px;
+    padding: 0 50px;
+    
+   
+}
+
+.footer .mod_help_nav {
+    float: left;
+    width: 200px;
+    line-height: 20px;
+}
+
+.footer .mod_help_nav h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .mod_help_nav ul li a {
+    font-size: 12px;
+    color: #333;
+}
+.footer .mod_help_nav ul li a:hover {
+    color: #c81623;
+}
+
+.footer .mod_help_cover {
+    float: left;
+    text-align: center;
+}
+.footer .mod_help_cover h5 {
+    font-size: 16px;
+    color: #333;
+}
+
+.footer .mod_copyright {
+    text-align: center;
+    
+}
+.footer .mod_copyright .link {
+    margin: 18px 0 15px;
+}
+
+.footer .mod_copyright .link span {
+    margin: 0 6px;
+}
+
+.footer .mod_copyright  p {
+    line-height: 20px;
+}
+

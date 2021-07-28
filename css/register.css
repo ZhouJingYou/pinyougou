@@ -1,0 +1,152 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+
+
+.registerarea {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 {
+    height: 41px;
+    padding: 0 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    line-height: 40px;
+}
+.registerarea .have_account {
+    float: right;
+    font-size: 14px;
+}
+
+.have_account a {
+    color: #c81623;
+}
+
+
+.reg_form {
+    height: 368px;
+    width: 600px;
+    margin: 50px auto 0;
+    /* background-color: #ccc; */
+}
+
+.reg_form li {
+    margin-bottom: 20px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #df3033;   
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -4px;
+    margin-right: 3px;
+    margin-left: 4px;
+    
+    background: url(../image/error.jpg) no-repeat;
+    vertical-align: middle;
+}
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url(../image/success.png) no-repeat;
+}
+
+/* 安全程度模块 */
+.reg_form .safe {
+  position: relative;
+  left: 176px;
+  bottom: 13px;
+  margin-bottom: 7px;
+  color: #b2b2b2;
+}
+.safe em {
+    color: #fff;
+    padding: 0 11px;
+    margin: 0 1px;
+}
+.ruo {
+    background-color: #e00900;
+}
+
+.zhong {
+    background-color: #39b936;
+}
+.qiang {
+    background-color: #f99100;
+}
+.agree {
+    padding-left: 92px;
+}
+.agree input {
+
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.agree a {
+    margin-left: 5px;
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 210px;
+    height: 34px;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ca111a;
+}
+
+
+
+ .mod_copyright {
+    text-align: center;
+    
+}
+ .mod_copyright .link {
+    margin: 18px 0 15px;
+}
+
+ .mod_copyright .link span {
+    margin: 0 6px;
+}
+
+ .mod_copyright  p {
+    line-height: 20px;
+}

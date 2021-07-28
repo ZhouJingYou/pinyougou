@@ -96,7 +96,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    background: url(/image/icons.png) no-repeat;
+    background: url(../image/icons.png) no-repeat;
     margin: 10px auto;
 }
 
